@@ -41,3 +41,15 @@ def mod(num1, num2):
     """Return the remainder of num1 / num2."""
 
     return num1 % num2
+
+def add_mult(num1, num2, num3):
+
+    sum = num1 + num2
+    return sum * num3
+
+def add_cubes (num1, num2):
+
+    cube_1 = num1 ** 3
+    cube_2 = num2 ** 3
+    
+    return cube_1 + cube_2
